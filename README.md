@@ -1,11 +1,25 @@
 # Open DSOPF
-An Open-Source Optimal Power Flow Formulation: Integrating Pyomo &amp; OpenDSS in Python
+
+#### OPF for unbalance three-phase network from OpenDSS ####
+#### Valentin Rigoni and Andrew Keane ######################
+#### University College Dublin, Ireland ####################
+#### email: valentinrigoni09@gmail.com #####################
+####        andrew.keane@ucd.ie        #####################
 
 MAIN_Unbalanced_OPF_RUN runs the main script
 
-The OPF model is included in the OPF_model_creator.py module in the Main_packages folder
+Contributions:
+    This model available for anyone to use.
+    If you use the model, get in touch and let us know about your work.
 
-***
-Important:
-Before running the script, go thought the tutorial in the Turotial folder and read:
-V. Rigoni and A. Keane, "An Open-Source Unbalanced Optimal Power Flow: Integrating Pyomo-OpenDSS in Python", 2020 IEEE Power and Energy Society General Meeting, 2020.
+Citation:
+    When using this model and any of the provided functions and modified network models, please cite our paper which describes them: 
+    V. Rigoni and A. Keane, "An Open-Source Optimal Power Flow Formulation: Integrating Pyomo & OpenDSS in Python", 2020 IEEE Power and Energy Society General Meeting, 2020.
+
+Comments:
+    - The solver does not use per unit values
+    - Neutral is not explicitly modelled
+    
+Prior to run:
+    - Make sure that you have pyomo library in Python and have installed OpenDSS
+    - Check TUTORIALS folder
