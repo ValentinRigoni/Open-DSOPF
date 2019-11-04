@@ -1,4 +1,4 @@
-# OpenPyoDSS
+# Open DSOPF
 An Open-Source Optimal Power Flow Formulation: Integrating Pyomo &amp; OpenDSS in Python
 
 MAIN_Unbalanced_OPF_RUN runs the main script
