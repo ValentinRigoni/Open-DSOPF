@@ -1,4 +1,4 @@
-# Open DSOPF
+# Open-DSOPF
 
 ### OPF for unbalance three-phase network from OpenDSS
 ### Valentin Rigoni and Andrew Keane 
