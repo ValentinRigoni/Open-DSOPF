@@ -1,6 +1,6 @@
 # Open DSOPF
 
-## OPF for unbalance three-phase network from OpenDSS 
+## OPF for unbalance three-phase network from OpenDSS ##
 ## Valentin Rigoni and Andrew Keane 
 ## University College Dublin, Ireland 
 email: valentinrigoni09@gmail.com & andrew.keane@ucd.ie       
