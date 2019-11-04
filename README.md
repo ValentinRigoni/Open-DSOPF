@@ -12,9 +12,9 @@ MAIN_Unbalanced_OPF_RUN runs the main script
     If you use the model, get in touch and let us know about your work.
 
 ### Citation:
-    When using this model and any of the provided functions and modified network models, please cite our paper which describes them: 
-#### V. Rigoni and A. Keane, "An Open-Source Optimal Power Flow Formulation: Integrating Pyomo & OpenDSS in Python", 2020 IEEE Power and Energy Society General Meeting, 2020.
+When using this model and any of the provided functions and modified network models, please cite our paper which describes them: 
+##### V. Rigoni and A. Keane, "An Open-Source Optimal Power Flow Formulation: Integrating Pyomo & OpenDSS in Python", 2020 IEEE Power and Energy Society General Meeting, 2020.
     
 ### Prior to run:
-    - Make sure that you have pyomo library in Python and have installed OpenDSS
-    - Check TUTORIALS folder
+    Make sure that you have pyomo library in Python and have installed OpenDSS
+    Check TUTORIALS folder
