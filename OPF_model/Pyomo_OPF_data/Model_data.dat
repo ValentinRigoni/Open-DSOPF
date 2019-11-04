@@ -1,0 +1,9 @@
+load Buses_Pyomo.csv format=set : Buses;
+load Phases_Pyomo.csv format=set : Phases_abc;
+load Lines_Pyomo.csv format=set : Lines;
+load Loads_Pyomo.csv format=set : Loads;
+
+load Y_bus_Pyomo.csv: [Bus_k,Bus_j,Phase_k,Phase_j] Bus_G Bus_B ;
+load Connectivity_Pyomo.csv: [Bus_k,Bus_j] Connectivity;
+load Lines_data_Pyomo.csv: [Lines] Lines_k Lines_i Lines_cable;
+load Loads_data_Pyomo.csv: [Loads] Load_bus_conn Load_phase_conn Load_Vnom;

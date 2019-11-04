@@ -1,0 +1,2 @@
+New circuit.LV_Network bus1=slack BasekV=10 pu=1.00 Angle=0 phases=3 ISC3=99999999999 Isc1=99999999999
+! Very high short circuit currents are to obtain an ideal source. Upstream network thevening equivalent should be modeled as an impedance connected right after.
