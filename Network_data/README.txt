@@ -3,6 +3,6 @@ The feeders presented here are obtained from [1]. Nonetheless, they have been mo
 1) Eliminating branches not supplying power to any customer
 2) Merging consecutive branches with equal cable data (no customers connected to nodes in between)
 
-Data for residential customers and PVs comes also from [1]
+Data for PV profiles comes also from [1]
 
-[1] ENWL, ìLV network models,î Low Voltage Network Solutions, 2014. Online: https://www.enwl.co.uk/zero-carbon/smaller-projects/low-carbon-networks-fund/low-voltage-network-solutions/
+[1] ENWL, ‚ÄúLV network models,‚Äù Low Voltage Network Solutions, 2014. Online: https://www.enwl.co.uk/zero-carbon/smaller-projects/low-carbon-networks-fund/low-voltage-network-solutions/
