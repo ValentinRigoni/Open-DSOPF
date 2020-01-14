@@ -3,7 +3,7 @@
 ### An unbalance three-phase OPF integrated with OpenDSS - version beta 0.1
 ### Valentin Rigoni and Andrew Keane 
 ### University College Dublin, Ireland 
-email: valentinrigoni09@gmail.com & andrew.keane@ucd.ie       
+email: valentinrigoni09@gmail.com
 
 MAIN_Unbalanced_OPF_RUN runs the main script
 
