@@ -8,7 +8,7 @@ email: valentinrigoni09@gmail.com & andrew.keane@ucd.ie
 MAIN_Unbalanced_OPF_RUN runs the main script
 
 ### License:
-"This model is open source software and publicly available. It is published under GNU General Public License 3          (http://www.gnu.org/licenses/). The license guarantees you the freedoms to use, study, share (copy), and modify the software. It is a copyleft license, which means that you can distribute derived works only under the same license terms."
+This model is open source software and publicly available. It is published under GNU General Public License 3          (http://www.gnu.org/licenses/). The license guarantees you the freedoms to use, study, share (copy), and modify the software. It is a copyleft license, which means that you can distribute derived works only under the same license terms.
 
 ### Citation:
 When using this model and any of the provided functions and modified network models, please cite our paper which describes them: 
