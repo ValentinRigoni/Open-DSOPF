@@ -24,12 +24,12 @@ Prior to run:
 
 """ INPUTS """
 # Study feeders - Including all feeders will simulate the complete LV Network - IMPORTANT: this must match the model in 'OPF_model' folder
-Feeder_names = ['Feeder1','Feeder2','Feeder3'] # ['Feeder1','Feeder2','Feeder3'] - can use all three or 1 or 2
+Feeder_names = ['Feeder1'] # ['Feeder1','Feeder2','Feeder3'] - can use all three or 1 or 2
 voltagebases = [10,0.4] # in kV line to line
 
 # Simulation time
-Time_sim_interval = 10 # [5-1440] - Provided profiles have a 5 min resolution
-Time_start = 10         # First time step >=5
+Time_sim_interval = 60 # [5-1440] - Provided profiles have a 5 min resolution
+Time_start = 60         # First time step >=5
 Time_end = 1440      # Last time step <=1440
 
 # Voltage limits in pu
