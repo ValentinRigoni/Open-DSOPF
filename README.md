@@ -5,6 +5,9 @@
 ### University College Dublin, Ireland 
 email: valentinrigoni09@gmail.com
 
+    It has been widely demonstrated that active network management (ANM) strategies will be required to avoid the violation of network      operational limits in distribution networks with a rich presence of distributed energy resources (DERs). With the characteristics of     different ANM strategies been varied, e.g. centralized or decentralized, a platform where the benefits and drawbacks of multiple approaches can be easily quantified and benchmarked is required. This work introduces a three-phase optimal power flow (OPF) method which can be directly formulated from any network modelled in OpenDSS. Crucially, both OpenDSS and OPF models are integrated into the same Python script, opening a wide range of simulation opportunities. The described simulation platform is publicly available to the academic community and distribution utilities.
+
+
 MAIN_Unbalanced_OPF_RUN runs the main script
 
 ### License:
