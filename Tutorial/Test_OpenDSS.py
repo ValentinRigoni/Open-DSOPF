@@ -12,11 +12,6 @@ Contributions:
 Citation:
     When using this model and any of the provided functions and modified network models, please cite our paper which describes them: 
     V. Rigoni and A. Keane, "An Open-Source Optimal Power Flow Formulation: Integrating Pyomo & OpenDSS in Python", 2020 IEEE Power and Energy Society General Meeting, 2020.
-
-Comments:
-    - The solver does not use per unit values
-    - Neutral is not explicitly modelled
-    - Formulation uses the current injection method from: P. Garcia, J. Pereira, S. Carneiro Jr., V. M. da Costa and N. Martins, "Three-Phase Power Flow Calculations Using the Current Injection Method", IEEE Transactions on Power Systems, vol. 15, no. 2, 2000.
 """
 
 """ Call modules """
