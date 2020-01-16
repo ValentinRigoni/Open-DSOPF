@@ -12,7 +12,7 @@ It has been widely demonstrated that active network management (ANM) strategies 
 3.	The OPF formulation is flexible and can include any DER model. The objective function and constraints can be modified to explore more decentralized formulations.
 4.	With many publicly available OpenDSS distribution networks models, it can expedite the validation of ANM solutions under multiple network topologies.
 
-A test case is generated with a real British low voltage (LV) network. The network consists of residential customers that have adopted domestic-scale PVs. 
+A real British low voltage (LV) network is used as a test case. The network consists of residential customers that have adopted domestic-scale PVs. 
 
 
 ### License:
