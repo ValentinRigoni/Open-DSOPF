@@ -24,7 +24,7 @@ Prior to run:
 
 """ INPUTS """
 # Study feeders - Including all feeders will simulate the complete LV Network - IMPORTANT: this must match the model in 'OPF_model' folder
-Feeder_names = ['Feeder1'] # ['Feeder1','Feeder2','Feeder3'] - can use all three or 1 or 2
+Feeder_names = ['Feeder2'] # ['Feeder1','Feeder2','Feeder3'] - can use all three or 1 or 2
 voltagebases = [10,0.4] # in kV line to line
 
 # Simulation time
