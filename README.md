@@ -12,8 +12,7 @@ It has been widely demonstrated that active network management (ANM) strategies 
 3.	The OPF formulation is flexible and can include any DER model. The objective function and constraints can be modified to explore more decentralized formulations.
 4.	With many publicly available OpenDSS distribution networks models, it can expedite the validation of ANM solutions under multiple network topologies.
 
-A real British low voltage (LV) network is used as a test case. The network consists of residential customers that have adopted domestic-scale PVs. 
-
+A real British low voltage (LV) network with domestic-scale photovoltaics is used as a test case. 
 
 ### License:
 This model is open source software and publicly available. It is published under GNU General Public License 3          (http://www.gnu.org/licenses/). The license guarantees you the freedoms to use, study, share (copy), and modify the software. It is a copyleft license, which means that you can distribute derived works only under the same license terms.
