@@ -1,6 +1,6 @@
 ![](/Logo.png)
 
-### An unbalance three-phase OPF integrated with OpenDSS - version beta 0.1
+## An unbalance three-phase OPF integrated with OpenDSS - version beta 0.1
 ### Valentin Rigoni and Andrew Keane 
 ### University College Dublin, Ireland 
 email: valentinrigoni09@gmail.com
@@ -14,24 +14,24 @@ It has been widely demonstrated that active network management (ANM) strategies 
 
 A real British low voltage (LV) network with domestic-scale photovoltaics is used as a test case. 
 
-### License:
+## License:
 This model is open source software and publicly available. It is published under GNU General Public License 3          (http://www.gnu.org/licenses/). The license guarantees you the freedoms to use, study, share (copy), and modify the software. It is a copyleft license, which means that you can distribute derived works only under the same license terms.
 
-### Citation:
+## Citation:
 When using this model and any of the provided functions and modified network models, please cite our paper which describes them: 
 ##### V. Rigoni and A. Keane, "An Open-Source Optimal Power Flow Formulation: Integrating Pyomo & OpenDSS in Python", 2020 IEEE Power and Energy Society General Meeting, Montreal, 2020. *Under review*
     
-### Prior to run:
+## Prior to run:
 Make sure that you have the Pyomo library in Python and have installed OpenDSS
 
 Check TUTORIALS folder
 
 MAIN_Unbalanced_OPF_RUN runs the main script
 
-## OpenDSS (from website)
+### OpenDSS (from website)
 The OpenDSS is a comprehensive electrical power system simulation tool primarly for electric utility power distribution systems. It supports nearly all frequency domain (sinusoidal steady‐state) analyses commonly performed on electric utility power distribution systems. In addition, it supports many new types of analyses that are designed to meet future needs related to smart grid, grid modernization, and renewable energy research. The OpenDSS tool has been used since 1997 in support of various research and consulting projects requiring distribution system analysis. Many of the features found in the program were originally intended to support the analysis of distributed generation interconnected to utility distribution systems and that continues to be a common use. Other features support analysis of such things as energy efficiency in power delivery and harmonic current flow. The OpenDSS is designed to be indefinitely expandable so that it can be easily modified to meet future needs.
 
-## Pyomo (from Wikipedia)
+### Pyomo (from Wikipedia)
 Pyomo was developed by William Hart and Jean-Paul Watson at Sandia National Laboratories and David Woodruff at University of California, Davis. Significant extensions to Pyomo were developed by Bethany Nicholson and John Siirola at Sandia National Laboratories, Carl Laird at Purdue University, and Gabriel Hackebeil. Pyomo is an open-source project that is freely available, and it is licensed with the BSD license. Pyomo is developed as part of the COIN-OR project. Pyomo is a popular open-source software package that is used by a variety of government agencies and academic institutions.
 
 Pyomo allows users to formulate optimization problems in Python in a manner that is similar to the notation commonly used in mathematical optimization. Pyomo supports an object-oriented style of formulating optimization models, which are defined with a variety of modeling components: sets, scalar and multidimensional parameters, decision variables, objectives, constraints, equations, disjunctions and more. Optimization models can be initialized with python data, and external data sources can be defined using spreadsheets, databases, various formats of text files. Pyomo supports both abstract models, which are defined without data, and concrete models, which are defined with data. In both cases, Pyomo allows for the separation of model and data.
