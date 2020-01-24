@@ -5,4 +5,4 @@ The feeders presented here are obtained from [1]. Nonetheless, they have been mo
 
 Data for PV profiles comes also from [1]
 
-[1] ENWL, “LV network models,” Low Voltage Network Solutions, 2014. Online: https://www.enwl.co.uk/zero-carbon/smaller-projects/low-carbon-networks-fund/low-voltage-network-solutions/
+[1] ENWL, “LV network models,” Low Voltage Network Solutions, 2014. Online: https://www.enwl.co.uk/zero-carbon/innovation/smaller-projects/low-carbon-networks-fund/low-voltage-network-solutions/
