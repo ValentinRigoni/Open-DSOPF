@@ -188,7 +188,7 @@ for i_house in range(Loads_set.size):
     House_Dem_data[Loads_set[i_house],'P_Profile']= csv_data['P'] # Active power profile [W]
     House_Dem_data[Loads_set[i_house],'Q_Profile']= csv_data['Q'] # Reactive power profile [var] - here, assumed a PF of
     House_Dem_data[Loads_set[i_house],'ZIP_P'] = csv_data[['P_Z','P_I','P_P']]
-    House_Dem_data[Loads_set[i_house],'ZIP_Q'] = csv_data[['P_Z','P_I','P_P']]    
+    House_Dem_data[Loads_set[i_house],'ZIP_Q'] = csv_data[['Q_Z','Q_I','Q_P']]    
     House_Dem_data[Loads_set[i_house],'ZIP_P'].columns = ['Z','I','P']
     House_Dem_data[Loads_set[i_house],'ZIP_Q'].columns = ['Z','I','P']
     
@@ -246,7 +246,7 @@ OPF_Losses_sign_line=np.zeros([Lines_set.size,3,Time_sim.size])
 OPF_PV_P=np.zeros([PV_set.size,Time_sim.size])
 OPF_PV_Q=np.zeros([PV_set.size,Time_sim.size])
 
-# instance.PVs.value_list e.g., to get sets
+# To get sets: e.g. instance.PVs.value_list 
 
 count_t=0
 for t in Time_sim:
