@@ -1,6 +1,6 @@
 ![](/Logo.png)
 
-## An unbalance three-phase OPF integrated with OpenDSS - 1.0.0
+## An unbalance three-phase OPF integrated with OpenDSS - v1.0.0
 ### Valentin Rigoni and Andrew Keane 
 ### University College Dublin, Ireland 
 ### [Open-DSOPF FORUM](https://groups.google.com/forum/#!forum/open-dsopf)
