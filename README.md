@@ -7,12 +7,12 @@
 
 ###### It has been widely demonstrated that active network management (ANM) strategies will be required to avoid the violation of network      operational limits in distribution networks with a rich presence of distributed energy resources (DERs). With the characteristics of     different ANM strategies been varied, e.g. centralized or decentralized, a platform where the benefits and drawbacks of multiple approaches can be easily quantified and benchmarked is required. This work introduces an open-source python-based package with a three-phase unbalanced OPF model (written in Pyomo) that is automatically created by extracting the data available from any network modelled in OpenDSS. The proposed platform provides the following benefits:
 
-1.	Both OpenDSS and OPF models can be integrated into the same Python script, opening a wide range of simulation opportunities.
-2.	It can facilitate the benchmark of decentralized solutions, implemented in OpenDSS, with OPF solutions.
-3.	The OPF formulation is flexible and can include any DER model. The objective function and constraints can be modified to explore more decentralized formulations.
-4.	With many publicly available OpenDSS distribution networks models, it can expedite the validation of ANM solutions under multiple network topologies.
+###### 1.	Both OpenDSS and OPF models can be integrated into the same Python script, opening a wide range of simulation opportunities.
+###### 2.	It can facilitate the benchmark of decentralized solutions, implemented in OpenDSS, with OPF solutions.
+###### 3.	The OPF formulation is flexible and can include any DER model. The objective function and constraints can be modified to explore more decentralized formulations.
+###### 4.	With many publicly available OpenDSS distribution networks models, it can expedite the validation of ANM solutions under multiple network topologies.
 
-A real British low voltage (LV) network with domestic-scale photovoltaics is used as a test case. 
+###### A real British low voltage (LV) network with domestic-scale photovoltaics is used as a test case. 
 
 ## Paper citation:
 When using this model and any of the provided functions and modified network models, please cite our paper which describes them: 
