@@ -5,7 +5,7 @@
 ### University College Dublin, Ireland 
 ### [Open-DSPF FORUM](https://groups.google.com/forum/#!forum/open-dsopf)
 
->It has been widely demonstrated that active network management (ANM) strategies will be required to avoid the violation of network      operational limits in distribution networks with a rich presence of distributed energy resources (DERs). With the characteristics of     different ANM strategies been varied, e.g. centralized or decentralized, a platform where the benefits and drawbacks of multiple approaches can be easily quantified and benchmarked is required. This work introduces an open-source python-based package with a three-phase unbalanced OPF model (written in Pyomo) that is automatically created by extracting the data available from any network modelled in OpenDSS. The proposed platform provides the following benefits:
+####It has been widely demonstrated that active network management (ANM) strategies will be required to avoid the violation of network      operational limits in distribution networks with a rich presence of distributed energy resources (DERs). With the characteristics of     different ANM strategies been varied, e.g. centralized or decentralized, a platform where the benefits and drawbacks of multiple approaches can be easily quantified and benchmarked is required. This work introduces an open-source python-based package with a three-phase unbalanced OPF model (written in Pyomo) that is automatically created by extracting the data available from any network modelled in OpenDSS. The proposed platform provides the following benefits:
 
 1.	Both OpenDSS and OPF models can be integrated into the same Python script, opening a wide range of simulation opportunities.
 2.	It can facilitate the benchmark of decentralized solutions, implemented in OpenDSS, with OPF solutions.
@@ -14,7 +14,7 @@
 
 A real British low voltage (LV) network with domestic-scale photovoltaics is used as a test case. 
 
-## Citation:
+## Paper citation:
 When using this model and any of the provided functions and modified network models, please cite our paper which describes them: 
 ##### V. Rigoni and A. Keane, "Open-DSOPF: an open-source optimal power flow formulation integrated with OpenDSS", 2020 IEEE Power and Energy Society General Meeting, Montreal, 2020, *Accepted Paper*
 
