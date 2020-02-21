@@ -11,7 +11,7 @@ Contributions:
 
 Citation:
     When using this model and any of the provided functions and modified network models, please cite our paper which describes them: 
-    V. Rigoni and A. Keane, "An Open-Source Optimal Power Flow Formulation: Integrating Pyomo & OpenDSS in Python", 2020 IEEE Power and Energy Society General Meeting, 2020.
+    V. Rigoni and A. Keane, "Open-DSOPF: an open-source optimal power flow formulation integrated with OpenDSS", 2020 IEEE Power and Energy Society General Meeting, 2020.
 
 Comments:
     - The solver does not use per unit values
