@@ -57,7 +57,7 @@ def OPF_model_creator(pd,pyo,math,Time_sim,V_init_pu,House_Dem_data,PV_set,PV_Ge
     if 1==1:
         # PV Control variables
         if 1==1:
-            model.P_control = pyo.Var(model.PVs, model.time, within=pyo.NonNegativeReals, bounds=(0.0,1.0), initialize=0.001)
+            model.P_control = pyo.Var(model.PVs, model.time, within=pyo.NonNegativeReals, bounds=(0.0,1.0), initialize=0.999)
             model.Thanphi_control = pyo.Var(model.PVs, model.time, bounds=(0.0,math.tan(math.acos(min_Cosphi))), initialize=0.001)
     
         # Voltages - Real and Imaginary part - in V
