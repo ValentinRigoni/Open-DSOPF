@@ -11,7 +11,7 @@ Contributions:
 
 Citation:
     When using this model and any of the provided functions and modified network models, please cite our paper which describes them: 
-    V. Rigoni and A. Keane, "An Open-Source Optimal Power Flow Formulation: Integrating Pyomo & OpenDSS in Python", 2020 IEEE Power and Energy Society General Meeting, 2020.
+    V. Rigoni and A. Keane, "Open-DSOPF: an open-source optimal power flow formulation integrated with OpenDSS", 2020 IEEE Power & Energy Society General Meeting, 2020.
 """
 
 def Validation_Plots(figure_size,font_size,plt,np,math,Main_Results_path,Time_sim,Feeder_names,Bus_set_no_slack,V_statutory_lim,OPF_Bus_Vmag,DSS_Bus_Vmag,Lines_set,Line_data_DSS,OPF_Imag_line,DSS_Imag_line,OPF_P_line,DSS_P_line,OPF_Q_line,DSS_Q_line,Cable_data,Feeder_bus_validation,Feeder_Lines_validation):
