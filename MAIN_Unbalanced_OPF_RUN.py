@@ -216,15 +216,15 @@ os.chdir(Main_path)
 
 #### Choose a NLP solver  - make sure its installed - some solvers won't be able to find a feasible or optimal solution - NOTE: with IPOPT as default, I've disabled "PV operational limits" constraint... you need another solver when including that
 # IPOPT
-optimizer = pyo.SolverFactory('ipopt') 
-optimizer.options["max_iter"] = 100000
-optimizer.options["linear_solver"] = 'mumps'
+#optimizer = pyo.SolverFactory('ipopt') 
+#optimizer.options["max_iter"] = 100000
+#optimizer.options["linear_solver"] = 'mumps'
 
 # KNITRO
-#optimizer = pyo.SolverFactory('knitroampl')
-#optimizer.options["par_numthreads"] = 5
-#optimizer.options["algorithm"] = 0 # Indicates which algorithm to use to solve the problem - 0 is auto [0-5]
-#optimizer.options["presolve"] = 1 # Determine whether or not to use the Knitro presolver to try to simplify the model by removing variables or constraints.
+optimizer = pyo.SolverFactory('knitroampl')
+optimizer.options["par_numthreads"] = 1
+optimizer.options["algorithm"] = 0 # Indicates which algorithm to use to solve the problem - 0 is auto [0-5]
+optimizer.options["presolve"] = 1 # Determine whether or not to use the Knitro presolver to try to simplify the model by removing variables or constraints.
 
 print('Solving OPF model...')
 Problem = optimizer.solve(instance,tee=True)
