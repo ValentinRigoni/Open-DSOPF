@@ -166,7 +166,7 @@ def OPF_model_creator(pd,pyo,math,Time_sim,V_init_pu,House_Dem_data,PV_set,PV_Ge
                 return -1.0 *(model.Vim[model.Lines_i[l],s,t] * model.Iflow_re[l,s,t] - model.Vre[model.Lines_i[l],s,t] * model.Iflow_im[l,s,t])  
             model.Q_flow_receiving = pyo.Expression(model.Lines,model.Phases_abc,model.time, rule=Q_flow_receiving_rule)
         # Losses
-        if 1==0: # Only model the variables that you are using in the optimization problem (in objective function or constraints)
+        if 1==1: # Only model the variables that you are using in the optimization problem (in objective function or constraints)
             # Losses for this time step per line and phase
             def P_losses_rule(model, l, s, t): # Active power losses Watts!
                 return model.P_flow_sending[l,s,t] + model.P_flow_receiving[l,s,t]
