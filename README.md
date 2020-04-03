@@ -11,7 +11,7 @@ It has been widely demonstrated that active network management (ANM) strategies 
 When using this model and any of the provided functions and modified network models, please cite our paper which describes them: 
 ##### V. Rigoni and A. Keane, "Open-DSOPF: an open-source optimal power flow formulation integrated with OpenDSS", 2020 IEEE Power and Energy Society General Meeting, Montreal, 2020, *Accepted Paper*
 
-IEEE Copyright Notice. According to current IEEE regulation (see [here](https://www.ieee.org/publications/rights/index.html#sect1)) only the accepted paper version is being made available: [**RESEARCH GATE**](https://www.researchgate.net/publication/339385517_Open-DSOPF_an_open-source_optimal_power_flow_formulation_integrated_with_OpenDSS)
+IEEE Copyright Notice. According to current IEEE regulation (see [here](https://www.ieee.org/publications/rights/index.html#sect1)) only the accepted paper version is being made available: [**RESEARCH GATE**](https://www.researchgate.net/publication/340342395_Open-DSOPF_an_open-source_optimal_power_flow_formulation_integrated_with_OpenDSS)
 
 ## License:
 This model is open source software and publicly available. It is published under [GNU General Public License 3](http://www.gnu.org/licenses/). The license guarantees you the freedoms to use, study, share (copy), and modify the software. It is a copyleft license, which means that you can distribute derived works only under the same license terms.
