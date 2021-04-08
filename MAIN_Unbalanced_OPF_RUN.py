@@ -218,7 +218,6 @@ os.chdir(Main_path)
 # IPOPT
 #optimizer = pyo.SolverFactory('ipopt') 
 #optimizer.options["max_iter"] = 100000
-#optimizer.options["linear_solver"] = 'mumps'
 
 # KNITRO
 optimizer = pyo.SolverFactory('knitroampl')
