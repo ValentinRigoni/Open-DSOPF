@@ -36,17 +36,17 @@ def OPF_model_creator(pd,pyo,math,Time_sim,V_init_pu,House_Dem_data,PV_set,PV_Ge
     if 1==1:
         ## Loaded from csv in OPF_model\Pyomo_OPF_data\
         # Network parameters
-        model.Bus_G = pyo.Param(model.Buses,model.Buses,model.Phases_abc,model.Phases_abc,within=Pyo.Any) # Network conductivity matrix
-        model.Bus_B = pyo.Param(model.Buses,model.Buses,model.Phases_abc,model.Phases_abc,within=Pyo.Any) # Network susceptance matrix
-        model.Connectivity = pyo.Param(model.Buses,model.Buses,within=Pyo.Any) # Connectivity matrix 1 if bus k and bus i are connected (zero otherwise)
-        model.Lines_k= pyo.Param(model.Lines,within=Pyo.Any) # Lines sending buses
-        model.Lines_i= pyo.Param(model.Lines,within=Pyo.Any) # Lines receiving buses
-        model.Lines_cable= pyo.Param(model.Lines,within=Pyo.Any) # Lines cable data       
+        model.Bus_G = pyo.Param(model.Buses,model.Buses,model.Phases_abc,model.Phases_abc,within=pyo.Any) # Network conductivity matrix
+        model.Bus_B = pyo.Param(model.Buses,model.Buses,model.Phases_abc,model.Phases_abc,within=pyo.Any) # Network susceptance matrix
+        model.Connectivity = pyo.Param(model.Buses,model.Buses,within=pyo.Any) # Connectivity matrix 1 if bus k and bus i are connected (zero otherwise)
+        model.Lines_k= pyo.Param(model.Lines,within=pyo.Any) # Lines sending buses
+        model.Lines_i= pyo.Param(model.Lines,within=pyo.Any) # Lines receiving buses
+        model.Lines_cable= pyo.Param(model.Lines,within=pyo.Any) # Lines cable data       
         
         # Load characteristics
-        model.Load_bus_conn= pyo.Param(model.Loads,within=Pyo.Any)
-        model.Load_phase_conn = pyo.Param(model.Loads,within=Pyo.Any)
-        model.Load_Vnom = pyo.Param(model.Loads,within=Pyo.Any)
+        model.Load_bus_conn= pyo.Param(model.Loads,within=pyo.Any)
+        model.Load_phase_conn = pyo.Param(model.Loads,within=pyo.Any)
+        model.Load_Vnom = pyo.Param(model.Loads,within=pyo.Any)
 
         ## From main script
         # Variables initialization values - V_init_pu
