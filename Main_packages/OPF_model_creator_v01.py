@@ -233,7 +233,7 @@ def OPF_model_creator(pd,pyo,math,Time_sim,V_init_pu,House_Dem_data,PV_set,PV_Ge
             model.Transformer_limit_con = pyo.Constraint(model.time, rule=Transformer_limit_rule)  
     
     # PV operational limits
-    if 1==1: # I recommend using a different NLP solver than IPOPT if incorporating this constraint (e.g. knitro or modifiying IPOPT options) - otherwise, relax the constraint
+    if 1==0: # I recommend using a different NLP solver than IPOPT if incorporating this constraint (e.g. knitro or modifiying IPOPT options) - otherwise, relax the constraint
         def PV_inverter_limit_rule(model, pv, t):
             max_P =  PV_Gen_data[pv,'Profile'].loc[t]
             max_S = (max_P**2+ (max_P*math.tan(math.acos(min_Cosphi)))**2)**0.5
