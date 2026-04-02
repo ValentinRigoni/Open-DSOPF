@@ -3,7 +3,6 @@
 ## An unbalance three-phase OPF integrated with OpenDSS
 ### Valentin Rigoni and Andrew Keane 
 ### University College Dublin, Ireland 
-### [Open-DSOPF FORUM](https://groups.google.com/forum/#!forum/open-dsopf)
 ### [YouTube short tutorial](https://www.youtube.com/watch?v=wJIehvEbk68)
 
 It has been widely demonstrated that active network management (ANM) strategies will be required to avoid the violation of network      operational limits in distribution networks with a rich presence of distributed energy resources (DERs). With the characteristics of     different ANM strategies been varied, e.g. centralized or decentralized, a platform where the benefits and drawbacks of multiple approaches can be easily quantified and benchmarked is required. This work introduces an open-source python-based package with a three-phase unbalanced OPF model (written in Pyomo) that is automatically created by extracting the data available from any network modelled in OpenDSS. A real British low voltage (LV) network with domestic-scale photovoltaics is used as a test case. 
@@ -23,8 +22,6 @@ Make sure that you have the Pyomo library in Python and have installed OpenDSS
 Check TUTORIALS folder
 
 MAIN_Unbalanced_OPF_RUN runs the main script
-
-forum: https://groups.google.com/forum/#!forum/open-dsopf
 
 ### [What is OpenDSS?](https://www.epri.com/#/pages/sa/opendss?lang=en)
 ### [What is Pyomo?](http://www.pyomo.org/about)
